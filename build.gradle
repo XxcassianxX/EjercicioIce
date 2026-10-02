@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.zeroc:ice:3.7.10'
+}
+
+application {
+    mainClass = 'taller1_nastul_valdez_cifuentes.ServidorApexStore'
+}
